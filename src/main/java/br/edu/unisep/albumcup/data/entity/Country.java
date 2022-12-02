@@ -15,5 +15,5 @@ public class Country {
     private Integer id;
 
     @Column(name = "nm_country")
-    private String nome;
+    private String name;
 }

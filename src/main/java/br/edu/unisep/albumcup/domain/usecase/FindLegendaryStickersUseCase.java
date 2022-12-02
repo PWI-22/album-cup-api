@@ -4,6 +4,6 @@ import br.edu.unisep.albumcup.domain.dto.ListStickerItemDto;
 
 import java.util.List;
 
-public interface FindAllStickersUseCase {
+public interface FindLegendaryStickersUseCase {
     List<ListStickerItemDto> execute();
 }

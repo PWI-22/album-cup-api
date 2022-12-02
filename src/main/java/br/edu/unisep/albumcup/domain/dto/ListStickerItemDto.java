@@ -5,7 +5,7 @@ import lombok.Data;
 import java.time.LocalDate;
 
 @Data
-public class StickerDto {
+public class ListStickerItemDto {
     private Integer id;
     private String player;
     private String country;

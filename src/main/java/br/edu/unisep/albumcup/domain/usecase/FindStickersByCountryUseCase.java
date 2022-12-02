@@ -4,6 +4,6 @@ import br.edu.unisep.albumcup.domain.dto.ListStickerItemDto;
 
 import java.util.List;
 
-public interface FindAllStickersUseCase {
-    List<ListStickerItemDto> execute();
+public interface FindStickersByCountryUseCase {
+    List<ListStickerItemDto> execute(Integer countryId);
 }

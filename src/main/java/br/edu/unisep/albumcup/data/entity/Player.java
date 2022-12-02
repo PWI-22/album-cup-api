@@ -7,7 +7,7 @@ import java.time.LocalDate;
 
 @Data
 @Entity
-@Table(name = "countries")
+@Table(name = "players")
 public class Player {
 
     @Id
@@ -27,4 +27,7 @@ public class Player {
     @Column(name = "dt_birth")
     private LocalDate birthday;
 
+    @OneToOne
+    @JoinColumn(name = "id_country")
+    private Country country;
 }
